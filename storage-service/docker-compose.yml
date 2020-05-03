@@ -1,0 +1,14 @@
+version: "3.4"
+
+services:
+  server:
+    container_name: pir-storage-service
+    image: pir-storage-service:latest
+    hostname: pir-storage-service
+    build:
+      context: .
+    ports:
+      - "8080:80"
+    environment:
+      CONFIG_PATH: "./configs.json"
+      SK: "[143,49,162,72,139,231,187,76,252,208,236,6,234,109,252,91,73,114,153,184,184,201,138,254,111,250,74,202,71,138,44,14]"

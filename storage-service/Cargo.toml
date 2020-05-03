@@ -1,0 +1,15 @@
+[package]
+name = "pir-storage-service"
+version = "0.1.0"
+authors = ["gpestana <g6pestana@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sinkhole-core = { git = "https://github.com/gpestana/sinkhole-rs", branch = "core-init" }
+rouille = "3.0.0"
+curve25519-dalek = "2.0.0"
+elgamal_ristretto = "0.2.3"
+bincode = "1.2.1"
+serde_json = "1.0.52"
+serde = "1.0.106"
+rand_core = "0.5.1"

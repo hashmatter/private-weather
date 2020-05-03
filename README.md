@@ -1,2 +1,3 @@
-# sinkhole-bot
-IPFS bot that "pins" and serves key-values for increasing privacy
+# sinkhole-weather
+
+Privacy preserving weather webapp using [sinkhole-rs PIR](https://github.com/hashmatter/sinkhole-rs).
